@@ -48,7 +48,7 @@ const Contact = () => {
 							me. I welcome your feedback, questions, and
 							suggestions. If you have a specific question or
 							comment, please feel free to email me directly at
-							&nbsp;{" "}
+							&nbsp;
 							<a href={`mailto:${INFO.main.email}`}>
 								{INFO.main.email}
 							</a>
@@ -57,14 +57,23 @@ const Contact = () => {
 							periods. Alternatively, you can use the contact form
 							on my website to get in touch. Simply fill out the
 							required fields and I'll get back to you as soon as
-							possible. Finally, if you prefer to connect on
+							possible.
+
+							{/* Include your website link */}
+							You can also visit my website at{" "}
+							<a href="https://www.your-website.com">
+								www.your-website.com
+							</a>{" "}
+							to learn more about me and my work.
+
+							Finally, if you prefer to connect on
 							social media, you can find me on{" "}
 							<a
 								href={INFO.socials.instagram}
 								target="_blank"
 								rel="noreferrer"
 							>
-								{INFO.socials.instagram}
+								Instagram
 							</a>
 							. I post regular updates and engage with my
 							followers there, so don't hesitate to reach out.
